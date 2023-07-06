@@ -1,4 +1,4 @@
-*node {
+node {
     stage('test') {
         echo 'Knowledge Is Free'
     }
