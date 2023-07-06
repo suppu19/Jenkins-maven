@@ -1,4 +1,4 @@
-node {
+*node {
     stage('test') {
         echo 'Knowledge Is Free'
     }
@@ -25,7 +25,7 @@ node {
     echo "=========================================Archiving Artifact============================================="
 
 
-        archiveArtifacts artifacts: '*/.war'
+        archiveArtifacts artifacts: '**/*.war'
    
     echo "==========================================Artifact Archieved============================================="
        
